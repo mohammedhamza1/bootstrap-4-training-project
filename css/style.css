@@ -44,56 +44,14 @@
     text-transform: uppercase;
     font-size: 14px;
     font-family: sans-serif;
+    transition: all .3s ease-in-out;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.upper-bar button:hover {
+    border: 2px solid #ec1c23;
+    color: #fff;
+    background-color: #ec1c23;
+}
 
 
 
@@ -156,34 +114,6 @@
     font-weight: 500;
     font-family: sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -288,36 +218,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*end slider*/
 
 
@@ -347,6 +247,15 @@
 .our-features .feature p {
     color: #838a8c;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -431,34 +340,86 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*end company overview*/
 
 
 /* start featured work */
 
-.our-work {}
-
-.our-work h1 {}
-
-.our-work p {}
-
-.our-work ul li {
-    display: inline-block;
-    border: 1px solid #08526d;
-    color: #08526d;
-    margin-right: 10px;
-    padding: 10px 0;
+.our-work {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #fff;
 }
 
 
+.our-work h1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-bottom: 45px;
+}
+
+.our-work p {
+    font-size: 20px;
+    color: #838a8c;
+    margin-bottom: 45px;
+}
 
 
+.our-work .our-feilds span {
+    display: inline-block;
+    margin-bottom: 45px;
+    border: 1px solid #08526d;
+    padding: 12px 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 21px;
+    margin-right: 5px;
+    letter-spacing: 2px;
+    color: #08526d;
+    transition: all .3s ease-in-out;
+}
+
+.our-work .our-feilds span.active {
+    background-color: #ed1d24;
+    color: #fff;
+    border-color: #ed1d24;
+}
+
+.our-work .our-feilds span:hover {
+    background-color: #ed1d24;
+    color: #fff;
+    border-color: #ed1d24;
+}
 
 
+.our-work .shuffle-images {
+    margin-left: 0;
+    margin-right: 0;
+}
 
+.our-work .shuffle-images .col-sm {
+    padding: 0;
+    overflow: hidden;
+}
 
-
-
+.our-work .shuffle-images .col-sm img {
+    width: 100%;
+    overflow: hidden;
+}
 
 
 
