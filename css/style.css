@@ -3,7 +3,6 @@
  red color : #ec1c23
 */
 
-
 /*start upper bar*/
 
 .upper-bar {
@@ -54,28 +53,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*end upper bar*/
-
 
 /*start navbar*/
 
@@ -116,30 +94,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*end nav bar*/
-
 
 /*start slider*/
 
@@ -196,30 +151,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*end slider*/
-
 
 /*start our features*/
 
@@ -249,26 +181,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*end our features*/
-
 
 /*start company overview*/
 
@@ -312,48 +225,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*end company overview*/
-
 
 /* start featured work */
 
@@ -414,27 +286,35 @@
 .our-work .shuffle-images .col-sm {
     padding: 0;
     overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.our-work .shuffle-images .col-sm .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out;
+    background-color: rgba(8, 82, 109, .7);
+    opacity: 0;
+}
+
+.our-work .shuffle-images .col-sm .overlay i {
+    color: #fff;
+}
+
+.our-work .shuffle-images .col-sm:hover .overlay {
+    opacity: 1;
+
 }
 
 .our-work .shuffle-images .col-sm img {
     width: 100%;
     overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* end featured work */
