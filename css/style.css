@@ -3,6 +3,26 @@
  red color : #ec1c23
 */
 
+/* general */
+
+.carousel-indicators li {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: all .3s ease-in-out;
+
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
+
+/* end general */
+
 /*start upper bar*/
 
 .upper-bar {
@@ -144,12 +164,6 @@
     background-size: cover;
     background-image: url(../img/slider03.jpg);
 }
-
-.slider .carousel-indicators li {
-    height: 5px;
-}
-
-
 
 /*end slider*/
 
@@ -304,12 +318,14 @@
 
 .our-work .shuffle-images .col-sm .overlay i {
     color: #fff;
+
 }
 
 .our-work .shuffle-images .col-sm:hover .overlay {
     opacity: 1;
 
 }
+
 
 .our-work .shuffle-images .col-sm img {
     width: 100%;
@@ -386,7 +402,6 @@
     background-size: cover;
     padding: 40px 0;
     position: relative;
-    margin-bottom: 50px;
     overflow: hidden
 }
 
@@ -469,3 +484,209 @@
 }
 
 /*end our client */
+
+/*start pricing table*/
+
+.pricing-table {
+    padding-top: 105px;
+    background-color: #f7f7f7;
+}
+
+.pricing-table h1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-bottom: 45px;
+}
+
+.pricing-table p {
+    font-size: 20px;
+    color: #838a8c;
+    margin-bottom: 45px;
+}
+
+.pricing-table .table-p {
+    background-color: #fff;
+    margin-bottom: 105px;
+    box-shadow: 0px 0px 10px -2px #ccc;
+}
+
+.pricing-table .table-m {
+    margin-top: -15px;
+}
+
+.pricing-table .table-p h4 {
+    padding: 55px 0 0;
+    color: #08526d;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.pricing-table .table-p span {
+    color: #888;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.pricing-table .table-p .price {
+    color: #08526d;
+    font-size: 47px;
+    font-weight: 500;
+    background-color: #f7f7f7;
+    margin-top: 30px;
+}
+
+.pricing-table .table-m .price {
+    color: #fff;
+    background-color: #ed1d24;
+}
+
+
+.pricing-table .table-p .price small {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.pricing-table .table-p ul {
+    padding: 30px 0 2px;
+    line-height: 3.5;
+    color: #888;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+
+.pricing-table .table-p button {
+    margin: 0 0 55px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ed1d24;
+    padding: 13px 35px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.pricing-table .table-m button {
+    background-color: #08526d;
+    color: #fff;
+}
+
+/*end pricing table*/
+
+/* start choose us*/
+
+.choose-us .row,
+.choose-us .col-sm-6 {
+    margin: 0;
+    padding: 0;
+}
+
+.choose-us img {
+    position: absolute;
+    left: -154px;
+}
+
+.choose-us .why {
+    color: #fff;
+    background-color: #08526d;
+    min-height: 651px;
+    max-height: 651px;
+    padding: 75px 40px 40px;
+}
+
+.choose-us .why h1 {
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: inherit;
+    margin-bottom: 40px;
+}
+
+.choose-us .why p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 2;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.choose-us .why hr {
+    visibility: hidden;
+}
+
+.choose-us .why button {
+    margin: 45px 0 55px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ed1d24;
+    padding: 13px 10px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+/* end choose us*/
+
+/*start state*/
+
+.states {
+    padding: 100px 0;
+    background-color: #fff;
+    color: #08526d;
+}
+
+.states span {
+    display: block;
+    font-size: 45px;
+    font-weight: bold;
+    color: #08526d;
+}
+
+.states aside {
+    color: #ed1d24;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/*end state*/
+
+/* start contact us */
+
+.contact-us {
+    background-color: #ed1d24;
+    color: #fff;
+    padding: 90px 0 85px 145px;
+}
+
+.contact-us p {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.contact-us button {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    position: absolute;
+    padding: 10px 10px;
+    right: 150px;
+}
+
+/* end contact us */
