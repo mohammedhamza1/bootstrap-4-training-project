@@ -489,10 +489,7 @@
 
 .pricing-table {
     padding-top: 105px;
-    margin-bottom: 30px;
     background-color: #f7f7f7;
-}
-
 }
 
 .pricing-table h1 {
@@ -581,3 +578,115 @@
 }
 
 /*end pricing table*/
+
+/* start choose us*/
+
+.choose-us .row,
+.choose-us .col-sm-6 {
+    margin: 0;
+    padding: 0;
+}
+
+.choose-us img {
+    position: absolute;
+    left: -154px;
+}
+
+.choose-us .why {
+    color: #fff;
+    background-color: #08526d;
+    min-height: 651px;
+    max-height: 651px;
+    padding: 75px 40px 40px;
+}
+
+.choose-us .why h1 {
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: inherit;
+    margin-bottom: 40px;
+}
+
+.choose-us .why p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 2;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.choose-us .why hr {
+    visibility: hidden;
+}
+
+.choose-us .why button {
+    margin: 45px 0 55px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ed1d24;
+    padding: 13px 10px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+/* end choose us*/
+
+/*start state*/
+
+.states {
+    padding: 100px 0;
+    background-color: #fff;
+    color: #08526d;
+}
+
+.states span {
+    display: block;
+    font-size: 45px;
+    font-weight: bold;
+    color: #08526d;
+}
+
+.states aside {
+    color: #ed1d24;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/*end state*/
+
+/* start contact us */
+
+.contact-us {
+    background-color: #ed1d24;
+    color: #fff;
+    padding: 90px 0 85px 145px;
+}
+
+.contact-us p {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.contact-us button {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    position: absolute;
+    padding: 10px 10px;
+    right: 150px;
+}
+
+/* end contact us */
