@@ -11,13 +11,14 @@ $(document).ready(function () {
     $('.slider,.carousel-item').height(windowHeight - (upperHeight + navHeight));
 
     // trigger the carousel
-    $('.carousel').carousel();
+
 
 
     // centering slider heading
     $('.slider .overlay h1').centertop();
     // centering fontawesome in overlay
     $('.our-work .shuffle-images .col-sm .overlay i').centerany();
+
 
 
     // shuffle images section
