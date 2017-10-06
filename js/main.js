@@ -26,8 +26,10 @@ $(document).ready(function () {
         $(this).addClass('active').siblings().removeClass('active');
 
         if ($(this).data('class') === 'all') {
-            $('.our-work .shuffle-images .col-sm,.our-work .shuffle-images .col-sm .overlay').css('opacity', '.09');
+            $('.our-work .shuffle-images .col-sm').css('opacity', '1');
         } else {
+            $('.our-work .shuffle-images .col-sm').css('opacity', '.09');
+            $('.' + $(this).data('class')).css('opacity', '1');
 
         }
     });
