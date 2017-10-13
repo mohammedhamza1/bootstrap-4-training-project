@@ -38,23 +38,29 @@ $(document).ready(function () {
     // change navbar style when scrolling
     $(window).scroll(function () {
         if ($(window).scrollTop() >= $('.slider').innerHeight()) {
-            $('nav').animate({}, function () {
-                $(this).addClass('nav-on-scroll');
-                $('.navbar .navbar-brand span').addClass('span-on-scroll');
-            }).slideDown();
 
-        } else if ($(window).scrollTop() == 0) {
-            $('nav').slideDown().removeClass('nav-on-scroll');
+
         } else {
-            $('nav').slideUp();
+
+        }
+
+    });
+    // add class active to navigation when scroll
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= $('.our-work').offset().top - 100) {
+            $('#w').addClass('active').siblings().removeClass('active');
+            if ($(window).scrollTop() >= $('.latest-post').offset().top - 100) {
+                $('#b').addClass('active').siblings().removeClass('active');
+                if ($(window).scrollTop() >= $('.contact-us').offset().top - 100) {
+                    $('#c').addClass('active').siblings().removeClass('active');
+                }
+            }
+        } else {
+            $('#a').addClass('active').siblings().removeClass('active');
         }
 
 
-
-
-
     });
-
 
 
 

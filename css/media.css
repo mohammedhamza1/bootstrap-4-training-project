@@ -1,0 +1,56 @@
+/*Small devices (landscape phones, 576px and up)*/
+
+@media(max-width:575px) {
+    .upper-bar button {
+        margin: 0;
+        background-color: #ec1c23;
+        color: #fff;
+        border: 2px solid #ec1c23;
+    }
+    .upper-bar button:hover {
+        background-color: #08526d;
+        color: #929fa5;
+        border: 2px solid #ec1c23;
+    }
+    .navbar .navbar-brand span:first-of-type,
+    .navbar .navbar-brand span:nth-of-type(2) {
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-toggler {
+        margin: 10px 0;
+        border-color: #08526d !important;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width:576px)and (max-width:767px) {
+    .navbar .navbar-brand span:first-of-type,
+    .navbar .navbar-brand span:nth-of-type(2) {
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-toggler {
+        margin: 10px 0;
+        border-color: #08526d !important;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width:768px)and (max-width: 992px) {
+    .navbar .navbar-brand span:first-of-type,
+    .navbar .navbar-brand span:nth-of-type(2) {
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-toggler {
+        margin: 15px 0;
+        border-color: #08526d !important;
+    }
+}

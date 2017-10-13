@@ -28,19 +28,22 @@
 .upper-bar {
     background-color: #08526d;
     color: #fff;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .upper-bar .phone {
     color: #929fa5;
-    margin: 0 3px;
     font-size: 14px;
 }
 
 .upper-bar .email {
-    margin: 0 3px;
     text-transform: uppercase;
     font-size: 14px;
+}
+
+.upper-bar .phone i,
+.upper-bar .email i {
+    color: #fff;
 }
 
 .upper-bar .subscribe {
@@ -48,14 +51,12 @@
     text-transform: uppercase;
     font-weight: 500;
     font-family: unset;
-    margin-left: 150px;
-    font-size: 15px
+    font-size: 14px;
 }
 
 .upper-bar button {
     padding: 3px 17px;
-    margin: 0;
-    float: right;
+    margin: 0 0 0 30px;
     border-radius: 0;
     background-color: #08526d;
     color: #929fa5;
@@ -72,18 +73,19 @@
     background-color: #ec1c23;
 }
 
-
 /*end upper bar*/
 
 /*start navbar*/
 
 .navbar {
-    height: 95px;
     background-color: #fff;
     text-transform: uppercase;
 
 }
 
+.navbar-collapse .collapse .show {
+    background-color: red
+}
 
 .navbar .navbar-brand {
     text-transform: capitalize;
@@ -104,7 +106,6 @@
     font-family: inherit;
 }
 
-
 .navbar-light .navbar-nav .active > .nav-link {
     color: #ec1c23;
 }
@@ -118,11 +119,11 @@
 }
 
 .nav-on-scroll {
-    height: 55px;
     position: fixed;
     z-index: 9000;
     width: 100%;
     top: 0;
+    left: 0;
     box-shadow: 0 5px 32px -5px #aaa;
     font-size: 14px;
     font-weight: bold;
@@ -132,6 +133,7 @@
 .span-on-scroll {
     font-size: 35px !important;
 }
+
 
 /*end nav bar*/
 
